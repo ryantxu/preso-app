@@ -1,0 +1,63 @@
+{
+  "type": "app",
+  "name": "TNS pre-KubeCon",
+  
+  "id": "ryantxu-preso-app",
+  
+  "info": {
+    "author": {
+      "name": "Ryan McKinley"
+    },
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+
+  "includes": [
+    {
+      "type": "page",
+      "name": "Outline",
+      "path": "/a/ryantxu-preso-app/",
+      "addToNav": true,
+      "defaultNav": true
+    },
+    {
+      "type": "page",
+      "name": "1. Data Data Data Data",
+      "path": "/a/ryantxu-preso-app/?tab=mixed",
+      "addToNav": true
+    },
+    {
+      "type": "page",
+      "name": "2. Transformations",
+      "path": "/d/l-rqPW4Mk/home-automation?orgId=1",
+      "addToNav": true
+    },
+    {
+      "type": "page",
+      "name": "3. Data driven configuration",
+      "path": "/d/r62wG-cMz/aqi-simple",
+      "addToNav": true
+    },
+    {
+      "type": "page",
+      "name": "4. Events & streaming",
+      "path": "/d/ei4Hwg5Mk/simple?orgId=1",
+      "addToNav": true
+    },
+    {
+      "type": "page",
+      "name": "Conclusion",
+      "path": "/d/UUMF2MpGz/g7-lightning-demo?orgId=1",
+      "addToNav": true
+    }
+  ],
+
+  "dependencies": {
+    "grafanaVersion": "7.3.x",
+    "plugins": []
+  }
+}

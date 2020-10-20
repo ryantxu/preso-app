@@ -1,0 +1,22 @@
+
+
+
+
+
+Well know tool in kubernetes -- 
+the tight integration with prometheus and service discovery has supported  
+
+
+Inspire you to think about grafana as both 
+ * an important part of your kubernetes stack, 
+ * and an composable platform to support your other 
+
+In Grafana 7, we made some foundational changes that will support 
+
+* data source plugins -- your data exists whereever it lives
+* transformations:  not all data sources are created equal, if everythign were in prometheus easy
+* robust/common/shared data model
+   
+
+
+
